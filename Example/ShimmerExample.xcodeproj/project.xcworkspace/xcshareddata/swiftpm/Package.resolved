@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Shimmer",
+        "repositoryURL": "https://github.com/joshuajhomann/Shimmer",
+        "state": {
+          "branch": null,
+          "revision": "b4356366d41ced8efa6164c9d045cff8532c3df4",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

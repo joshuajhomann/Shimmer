@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Lorem ipsum dolor",
+    "subtitle": "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageName": "star.fill"
+  },
+  {
+    "id": 2,
+    "title": "Sed do eiusmod",
+    "subtitle": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    "imageName": "star.fill"
+  },
+  {
+    "id": 3,
+    "title": " Duis aute irure",
+    "subtitle": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageName": "star.fill"
+  },
+  {
+    "id": 4,
+    "title": "Dolor sit amet",
+    "subtitle": "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageName": "star.fill"
+  },
+  {
+    "id": 5,
+    "title": "Tempor incididunt",
+    "subtitle": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    "imageName": "star.fill"
+  },
+  {
+    "id": 6,
+    "title": "In reprehenderit",
+    "subtitle": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageName": "star.fill"
+  },
+]

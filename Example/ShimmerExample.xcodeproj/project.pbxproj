@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032A87FF25E248CB0007C363 /* ShimmerExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A87FE25E248CB0007C363 /* ShimmerExampleApp.swift */; };
+		032A880325E248CC0007C363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032A880225E248CC0007C363 /* Assets.xcassets */; };
+		032A880625E248CC0007C363 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032A880525E248CC0007C363 /* Preview Assets.xcassets */; };
+		032A881525E24B0C0007C363 /* FakeNewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A881425E24B0C0007C363 /* FakeNewsService.swift */; };
+		032A881825E24B2F0007C363 /* FakeNewsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A881725E24B2F0007C363 /* FakeNewsFeedView.swift */; };
+		032A881B25E24B540007C363 /* FakeNewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A881A25E24B540007C363 /* FakeNewsList.swift */; };
+		032A881E25E24B620007C363 /* FakeNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A881D25E24B620007C363 /* FakeNewsViewModel.swift */; };
+		032A882425E251E40007C363 /* newsItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 032A882325E251E40007C363 /* newsItems.json */; };
+		032A882725E254220007C363 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A882625E254220007C363 /* MessageView.swift */; };
+		032A882C25E25B7C0007C363 /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = 032A882B25E25B7C0007C363 /* Shimmer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032A87FB25E248CB0007C363 /* ShimmerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032A87FE25E248CB0007C363 /* ShimmerExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerExampleApp.swift; sourceTree = "<group>"; };
+		032A880225E248CC0007C363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		032A880525E248CC0007C363 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		032A880725E248CC0007C363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032A881425E24B0C0007C363 /* FakeNewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNewsService.swift; sourceTree = "<group>"; };
+		032A881725E24B2F0007C363 /* FakeNewsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNewsFeedView.swift; sourceTree = "<group>"; };
+		032A881A25E24B540007C363 /* FakeNewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNewsList.swift; sourceTree = "<group>"; };
+		032A881D25E24B620007C363 /* FakeNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNewsViewModel.swift; sourceTree = "<group>"; };
+		032A882325E251E40007C363 /* newsItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = newsItems.json; sourceTree = "<group>"; };
+		032A882625E254220007C363 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032A87F825E248CB0007C363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032A882C25E25B7C0007C363 /* Shimmer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032A87F225E248CB0007C363 = {
+			isa = PBXGroup;
+			children = (
+				032A87FD25E248CB0007C363 /* ShimmerExample */,
+				032A87FC25E248CB0007C363 /* Products */,
+				032A881025E249980007C363 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		032A87FC25E248CB0007C363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032A87FB25E248CB0007C363 /* ShimmerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032A87FD25E248CB0007C363 /* ShimmerExample */ = {
+			isa = PBXGroup;
+			children = (
+				032A87FE25E248CB0007C363 /* ShimmerExampleApp.swift */,
+				032A881425E24B0C0007C363 /* FakeNewsService.swift */,
+				032A881D25E24B620007C363 /* FakeNewsViewModel.swift */,
+				032A881725E24B2F0007C363 /* FakeNewsFeedView.swift */,
+				032A881A25E24B540007C363 /* FakeNewsList.swift */,
+				032A882625E254220007C363 /* MessageView.swift */,
+				032A882325E251E40007C363 /* newsItems.json */,
+				032A880225E248CC0007C363 /* Assets.xcassets */,
+				032A880725E248CC0007C363 /* Info.plist */,
+				032A880425E248CC0007C363 /* Preview Content */,
+			);
+			path = ShimmerExample;
+			sourceTree = "<group>";
+		};
+		032A880425E248CC0007C363 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				032A880525E248CC0007C363 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		032A881025E249980007C363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032A87FA25E248CB0007C363 /* ShimmerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032A880A25E248CC0007C363 /* Build configuration list for PBXNativeTarget "ShimmerExample" */;
+			buildPhases = (
+				032A87F725E248CB0007C363 /* Sources */,
+				032A87F825E248CB0007C363 /* Frameworks */,
+				032A87F925E248CB0007C363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShimmerExample;
+			packageProductDependencies = (
+				032A882B25E25B7C0007C363 /* Shimmer */,
+			);
+			productName = ShimmerExample;
+			productReference = 032A87FB25E248CB0007C363 /* ShimmerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032A87F325E248CB0007C363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					032A87FA25E248CB0007C363 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 032A87F625E248CB0007C363 /* Build configuration list for PBXProject "ShimmerExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032A87F225E248CB0007C363;
+			packageReferences = (
+				032A882A25E25B7C0007C363 /* XCRemoteSwiftPackageReference "Shimmer" */,
+			);
+			productRefGroup = 032A87FC25E248CB0007C363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032A87FA25E248CB0007C363 /* ShimmerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032A87F925E248CB0007C363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032A880625E248CC0007C363 /* Preview Assets.xcassets in Resources */,
+				032A882425E251E40007C363 /* newsItems.json in Resources */,
+				032A880325E248CC0007C363 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032A87F725E248CB0007C363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032A882725E254220007C363 /* MessageView.swift in Sources */,
+				032A881E25E24B620007C363 /* FakeNewsViewModel.swift in Sources */,
+				032A881B25E24B540007C363 /* FakeNewsList.swift in Sources */,
+				032A881825E24B2F0007C363 /* FakeNewsFeedView.swift in Sources */,
+				032A87FF25E248CB0007C363 /* ShimmerExampleApp.swift in Sources */,
+				032A881525E24B0C0007C363 /* FakeNewsService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		032A880825E248CC0007C363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		032A880925E248CC0007C363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		032A880B25E248CC0007C363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShimmerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = L4WMJSL77G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShimmerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joshhomann.ShimmerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		032A880C25E248CC0007C363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShimmerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = L4WMJSL77G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShimmerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joshhomann.ShimmerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032A87F625E248CB0007C363 /* Build configuration list for PBXProject "ShimmerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032A880825E248CC0007C363 /* Debug */,
+				032A880925E248CC0007C363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032A880A25E248CC0007C363 /* Build configuration list for PBXNativeTarget "ShimmerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032A880B25E248CC0007C363 /* Debug */,
+				032A880C25E248CC0007C363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		032A882A25E25B7C0007C363 /* XCRemoteSwiftPackageReference "Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joshuajhomann/Shimmer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		032A882B25E25B7C0007C363 /* Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 032A882A25E25B7C0007C363 /* XCRemoteSwiftPackageReference "Shimmer" */;
+			productName = Shimmer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 032A87F325E248CB0007C363 /* Project object */;
+}
